@@ -31,7 +31,7 @@
    &gresc    &kp Q &kp W &kp E &kp R &kp T       &kp Y &kp U &kp I    &kp O   &kp P    &kp MINUS
    &sk LCTRL &kp A &kp S &kp D &kp F &kp G       &kp H &kp J &kp K    &kp L   &kp QUOT &kp SQT
    &sk LSHFT &kp Z &kp X &kp C &kp V &kp B       &kp N &kp M &kp CMMA &kp DOT &kp FSLH &kp EQUAL
-             &sk LALT &kp SPC &lt NUMROW TAB    &lt NAVFUN BSPC &mt LGUI RET &sk RSHFT
+             &sk LALT &kp SPACE &lt NUMROW TAB    &lt NAVFUN BSPC &mt LGUI RET &sk RSHFT
                         >;
                 };
 
@@ -65,7 +65,7 @@
    &kp TAB   &kp F1    &kp F2  &kp F3    &kp F4    &kp F5    &kp F6    &kp F7   &kp F8 &kp F9    &kp F10 &kp DEL
    &kp LCTRL &kp HOME  &kp END &kp LGUI  &kp LCTRL &kp PG_UP &kp LEFT  &kp DOWN &kp UP &kp RIGHT &none   &kp F11
    &kp LSHFT &kp K_APP &none   &none     &none     &kp PG_DN &kp C_PP  &none    &none  &none     &none   &kp F12
-                      &kp ESC &kp SPS &lt CONFIG TAB    &trans &none &none
+                      &kp ESC &kp SPACE &lt CONFIG TAB    &trans &none &none
                         >;
                 };
 
