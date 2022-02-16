@@ -47,7 +47,7 @@
                         bindings = <
    &kp GRAVE &kp EXCL &kp AT    &kp HASH  &kp DLLR &kp PRCNT &kp CARET &kp AMPS &kp STAR &kp LPAR &kp RPAR &kp PIPE
    &kp LCTRL &kp N1   &kp N2    &kp N3    &kp N4   &kp N5    &kp N6    &kp N7   &kp N8   &kp N9   &kp N0   &kp COLON
-   &kp LSHFT &none    &kp TILDE &kp GRAVE &kp LBKT &kp RBRC  &kp RBKT  &kp RBKT &kp CMMA &kp DOT  &kp FSLH &kp BSLH
+   &kp LSHFT &none    &kp TILDE &kp GRAVE &kp LBKT &kp LBRC  &kp RBRC  &kp RBKT &kp CMMA &kp DOT  &kp FSLH &kp BSLH
                         &none &none &trans         &lt CONFIG BSPC &kp RET &sk RSHFT
                         >;
                 };
