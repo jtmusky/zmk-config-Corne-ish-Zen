@@ -14,6 +14,14 @@
 #define NAVFUN 2
 #define CONFIG 3
 
+# enable a longer timeout before sleep
+#  900000 = 15 mins
+# 1800000 = 30 mins
+# 2700000 = 45 mins
+# 3600000 = 1 hour
+
+CONFIG_ZMK_IDLE_SLEEP_TIMEOUT=1800000
+
 / {
         keymap {
                 compatible = "zmk,keymap";
@@ -63,7 +71,7 @@
 
                         bindings = <
    &kp TAB   &kp F1    &kp F2  &kp F3    &kp F4    &kp F5    &kp F6    &kp F7     &kp F8     &kp F9       &kp F10      &kp DEL
-   &kp LCTRL &kp HOME  &kp END &kp LGUI  &kp LCTRL &kp PG_UP &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT    &none        &kp F11
+   &kp LCTRL &kp HOME  &kp END &kp LGUI  &kp LCTRL &kp PG_UP &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT    &INSERT      &kp F11
    &kp LSHFT &kp K_APP &none   &none     &none     &kp PG_DN &kp C_PP  &kp C_PREV &kp C_NEXT &kp C_VOL_DN &kp C_VOL_UP &kp F12
                       &kp ESC &kp SPACE &lt CONFIG TAB    &trans &none &none
                         >;
